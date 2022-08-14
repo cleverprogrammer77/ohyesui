@@ -29,6 +29,32 @@ function Nav() {
           alt=""
         />
       </div>
+      {/* <div className="menu">
+        <button className="menu__btn">Top Pick</button>
+        <button className="menu__btn">Classic Cinema</button>
+        <button className="menu__btn">New Releases</button>
+        <button className="menu__btn">Documentaries</button>
+        <button className="menu__btn">Short Films</button>
+      </div> */}
+      <div class="topnav">
+        <a class="active" href="#home">
+          Home
+        </a>
+        <a href="news">News</a>
+        <a href="contact">Contact</a>
+        <a href="about">About</a>
+        <a href="classic_cinema">Classic Cinema</a>
+        <a href="short_films">Short Films</a>
+        <input type="text" placeholder="Search.."></input>
+        <button className="register__btn">Register</button>
+      </div>
+      <div class="bottom__navbar">
+        <a href="#home" class="active">
+          Home
+        </a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </div>
     </div>
   );
 }

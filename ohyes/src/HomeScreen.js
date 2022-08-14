@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Banner from "./Banner";
 import requests from "./Requests";
 import Row from "./Row";
+import styled from "styled-components";
 function HomeScreen() {
   return (
     <div className="homescreen">
@@ -21,6 +22,8 @@ function HomeScreen() {
       <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
       <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+
+      {/* <button className="register__btn">Register</button> */}
     </div>
   );
 }
